@@ -23,9 +23,10 @@
 | TOTAL                            |             | ~1 554 000     | ~222 MB |
 
 ## INGESTION GCP RECOMMANDEE
+
 1. Uploader dans Cloud Storage (bucket : gs://randstad-data-raw/)
-2. S1,S5,S6,S9 -> Cloud Data Fusion (CSV/Fixed-Width)
-3. S2,S8,S10   -> Cloud Data Fusion ou Dataflow (JSONL)
-4. S3           -> Dataproc Spark (XML distribue)
-5. S4           -> Cloud Functions (parser SWIFT custom)
-6. S7           -> Cloud Functions (pre-traitement xlsx)
+2. S1, S5, S6, S9 -> Cloud Data Fusion (CSV / Fixed-Width)
+3. S2, S8, S10 -> Dataflow (JSONL streaming/batch)
+4. S3 -> Dataproc Spark (XML distribué)
+5. S4 -> Cloud Functions (parser SWIFT MT103)
+6. S7 -> Cloud Functions (traitement Excel)
