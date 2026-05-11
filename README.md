@@ -186,7 +186,7 @@ reports/          -> Rapports et présentations
 
 ---
 
-## Boniface Esterm
+## Boniface Péré
 ### Business Intelligence & Analyse
 - Création des dashboards
 - Création des KPIs
@@ -266,7 +266,7 @@ Chaque membre travaille sur une partie spécifique du projet à travers des bran
 
 - Traoré Abdoul-Karym
 - Jean Yves Kpangban
-- Boniface Elizam
+- Boniface Péré
 
 # DONNEES SYNTHETIQUES - Secteur Bancaire/Assurance France
 ## Volume entreprise - Compatible GCP Free Tier
