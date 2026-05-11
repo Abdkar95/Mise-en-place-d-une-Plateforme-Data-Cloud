@@ -198,7 +198,7 @@ reports/          -> Rapports et présentations
 
 # Répartition des Responsabilités
 
-## Traoré Abdoul Karym
+## Traoré Abdoul-Karym
 ### Chef de Projet & Coordination
 - Gestion du projet
 - Organisation Jira
@@ -297,6 +297,6 @@ Chaque membre travaille sur une partie spécifique du projet à travers des bran
 
 # Auteurs
 
-- Traoré Abdoul Karym
+- Traoré Abdoul-Karym
 - Jean Yves Kpangban
 - Boniface Elizam
