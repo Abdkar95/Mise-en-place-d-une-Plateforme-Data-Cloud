@@ -268,6 +268,8 @@ Chaque membre travaille sur une partie spécifique du projet à travers des bran
 - Jean Yves Kpangban
 - Boniface Péré
 
+---
+
 # DONNEES SYNTHETIQUES - Secteur Bancaire/Assurance France
 ## Volume entreprise - Compatible GCP Free Tier
 
