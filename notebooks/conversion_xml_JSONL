@@ -1,0 +1,25 @@
+from pyspark.sql import SparkSession
+
+# Création session Spark
+spark = (
+    SparkSession.builder
+    .appName("XML_to_JSONL")
+    .getOrCreate()
+)
+
+# Lecture XML
+df = (
+    spark.read
+    .format("xml")
+    .option("rowTag", "Police")   # balise répétée
+    .load("gs://my-bucket/input/data.xml")
+)
+
+# Écriture JSONL
+(
+    df.write
+    .mode("overwrite")
+    .json("gs://my-bucket/output/jsonl")
+)
+
+print("Conversion terminée")
