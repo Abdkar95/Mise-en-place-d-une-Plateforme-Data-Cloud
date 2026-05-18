@@ -162,13 +162,6 @@ reports/          -> Rapports et présentations
 ```
 ---
 
-dim_clients ──────┐
-dim_agences ──────┤
-dim_contrats ─────┼──── fact_transactions
-dim_temps ────────┤
-dim_produits ─────┘
----
-
 # Répartition des Responsabilités
 
 ## Traoré Abdoul-Karym
