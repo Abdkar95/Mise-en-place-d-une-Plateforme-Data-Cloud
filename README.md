@@ -160,7 +160,6 @@ dashboard/        -> Dashboards BI
 docs/             -> Documentation technique
 reports/          -> Rapports et présentations
 ```
-
 ---
 
 # Répartition des Responsabilités
